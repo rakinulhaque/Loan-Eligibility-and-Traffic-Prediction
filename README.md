@@ -1,19 +1,18 @@
 Two end-to-end machine learning projects demonstrating practical data science skills—from data cleaning and feature engineering to model development, evaluation, and communication of results.
 
 The repository contains:
-- `LOAN_ELIGIBITY_PREDICTICTION.ipynb` and `Loan_Prediction.csv` — a supervised **classification** project for loan approval prediction. :contentReference[oaicite:0]{index=0}  
-- `Traffic Prediction.ipynb` and `Traffic Prediction Dataset.zip` — a **regression / forecasting** project for traffic volume prediction. :contentReference[oaicite:1]{index=1}
-
+- `LOAN_ELIGIBITY_PREDICTICTION.ipynb` and `Loan_Prediction.csv` — a supervised **classification** project for loan approval prediction.
+- `Traffic Prediction.ipynb` and `Traffic Prediction Dataset.zip` — a **regression / forecasting** project for traffic volume prediction.
 ---
 
-## Why These Projects Matter
+## Introduction
 
 - **Loan Eligibility:** Scalable, explainable screening can help lenders reduce manual workload, improve consistency, and enhance fairness audits.
 - **Traffic Prediction:** Accurate short-term forecasts support congestion management, route planning, and operational decision-making.
 
 ---
 
-## What I Did (At a Glance)
+## Methodology
 
 - Built **reproducible notebooks** that load, clean, and validate tabular datasets.
 - Engineered **informative features** (categorical encodings, temporal breakout for traffic, ratio/interaction features).
@@ -109,10 +108,3 @@ Estimate near-term traffic volumes for a roadway/segment to support planning and
 - **Utilities:** joblib (model persistence), pyjanitor (optional), category_encoders (optional)
 
 ---
-
-## How to Run
-
-1. **Clone the repo**
-   ```bash
-   git clone https://github.com/rakinulhaque/Loan-Eligibility-and-Traffic-Prediction.git
-   cd Loan-Eligibility-and-Traffic-Prediction
